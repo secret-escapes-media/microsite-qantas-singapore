@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="vpad--xxl">
+  <div class="container">
+    <div class="width width--xl text--xxl text--center">
+      <p>{{site.description}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="js-sticky-nav-wrap">
+  {% include nav/sections.html %}
+</div>
+
+{% for itinerary in site.data.itineraries %}
+  <div id="{{itinerary.id}}" class="vpad--xxl js-nav-section bg__fixed">
+    <div class="bg__fixed-wrap">
+      <div class="bg__fixed-img" style="background-image: url('{{site.img}}/content/{{page.id}}/itinerary/{{itinerary.id}}/bg.jpg');"></div>
+    </div>
+    <div class="container">
+
+      <div class="width width--xl vpad--xxxl text--center bg--number" style="background-image: url('{{site.img}}/content/{{page.id}}/itinerary/{{itinerary.id}}/number.svg');">
+        <p class="day-title">{{itinerary.title}}</p>
+        <div class="space--xs"></div>
+        <h2 class="title title--lg width width--lg">{{itinerary.title-long}}</h2>
+      </div>
+
+      <div class="space--xxl"></div>
+
+      {% for item in itinerary.activities %}
+        <div class="width width--xl">
+          <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/itinerary/{{itinerary.id}}/{{item.id}}.jpg');"></div>
+          <div class="space--lg"></div>
+          <div class="width width--lg text--center">
+            <p class="day-title">{{item.time}}</p>
+            <div class="space--xs"></div>
+            <h4 class="light-title">{{item.title}}</h4>
+            <p class="text--xl">{{item.description}}</p>
+          </div>
+        </div>
+        {% unless forloop.last %}<div class="space--xxxl"></div>{% endunless %}
+      {% endfor %}
+
+    </div>
+  </div>
+{% endfor %}
+
+{% include page/promo-flights.html %}

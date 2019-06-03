@@ -1,9 +1,12 @@
 // all banner types on site
 
 .title {
-
   // custom content headline
   font-family: $font-title-01;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .05em;
+  line-height: 1.2;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
   &--xl     { font-size: $s6; }
@@ -24,11 +27,9 @@
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
   }
-
 }
 
 .sub-title {
-
   // custom content headline
   font-family: $font-title-01;
   font-size: $s2; // default size
@@ -39,17 +40,14 @@
     &--lg     { font-size: $s5; }
     &--sm     { font-size: $s1; }
   }
-
 }
 
 
 .core-title {
-
   // open-sans – core site typeface
   font-family: $font-core;
   font-weight: 300;
   letter-spacing: -.02em;
-
   &--xxxl   { font-size: $s8; line-height: 1.1; }
   &--xxl    { font-size: $s7; line-height: 1.1; }
   &--xl     { font-size: $s6; line-height: 1.2; }
@@ -70,17 +68,59 @@
     &--xxs    { font-size: $s2; line-height: 1.35; }
     &--xxxs   { font-size: $s1; line-height: 1.4; }
   }
-
 }
 
 
 .banner-title {
-
   // custom banner headline
   font-family: $font-title-01;
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1.2;
   font-size: $s5;
   @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
+  @include bp($lg){ font-size: $s8; }
+  @include bp($xl){ font-size: $s9; }
+  @include bp($xxl){ font-size: $s11; }
+  &--overview {
+    font-size: $s6;
+    font-weight: 800;
+    @include bp($md){ font-size: $s8; }
+    @include bp($lg){ font-size: $s9; }
+    @include bp($xl){ font-size: $s10; }
+    @include bp($xxl){ font-size: $s11; }
+  }
+}
 
+.banner-sub-title {
+  // custom banner headline
+  font-family: $font-title-01;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3em;
+  line-height: 1.2;
+  font-size: $s2;
+  @include bp($md){ font-size: $s3; }
+  @include bp($xl){ font-size: $s4; }
+}
+
+.day-title {
+  font-family: $font-title-01;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: .25em;
+  line-height: 1.2;
+  color: $sg-red;
+  font-size: $s-1;
+  @include bp($lg){ font-size: $s0; }
+}
+
+.light-title {
+  font-family: $font-title-01;
+  font-weight: 200;
+  letter-spacing: .0125em;
+  line-height: 1.2;
+  font-size: $s5;
+  @include bp($lg){ font-size: $s6; }
 }

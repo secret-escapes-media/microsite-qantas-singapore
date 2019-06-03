@@ -40,7 +40,7 @@ $core-nav-padding-sm: 1rem;
 // the breakpoint for the core nav list to appear as the mobile nav
 $nav-list-bp: 870px;
 // the breakpoint for the logo to appear at the bottom of the mobile nav
-$logo-bp: 600px;
+$logo-bp: 870px;
 
 .core-nav {
   height: 100%;
@@ -52,7 +52,7 @@ $logo-bp: 600px;
   background-color: rgba($black,.75);
 
   // spacing for double logos in core nav
-  .logo + .logo { margin-left: $s0; }
+  .logo + .logo { margin-left: $s2; }
 
   @include bp(md){
     padding-left: $core-nav-padding;
@@ -146,7 +146,7 @@ $mobile-nav-width: 75%;
   @include transition;
 
   // spacing for logos in mobile core nav
-  .logo { margin: $s-2; }
+  .logo { margin: $s-1; }
 
   &.is-closed {
     left: -$mobile-nav-width;

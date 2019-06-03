@@ -4,38 +4,40 @@ banner:
   content: >
     <div class="container container--no-padding">
       <div class="width width--xxl text--center">
-        <h1 class="title title--xxxl">{{page.long-title}}</h1>
+        <h1 class="banner-title">{{page.title}}</h1>
+        <h2 class="banner-sub-title width width--xl">{{page.title-sub}}</h2>
         <div class="space--sm"></div>
-        <a href="#entry-form" class="btn btn--lg btn--orange">{{page.enter-cta}}</a>
+        <a href="#entry-form" class="btn btn--lg btn--red">{{page.enter-cta}}</a>
       </div>
     </div>
 ---
 
-<div class="bg--light">
-  <div class="container">
-    <div class="space--xxl"></div>
-    <div class="width width--xl text--center">
-      <p class="text--xxl">{{page.intro}}</p>
-    </div>
-    <div class="space--xl"></div>
-    <div class="row row--constant-4-4-4 row--gutters-sm">
-      <div class="col">
-        <div class="bg-img bg-img--1-1 bg-img--lg-4-3 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/bg.jpg');"></div>
-      </div>
-      <div class="col">
-        <div class="bg-img bg-img--1-1 bg-img--lg-4-3 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/bg.jpg');"></div>
-      </div>
-      <div class="col">
-        <div class="bg-img bg-img--1-1 bg-img--lg-4-3 bg-img--xxl-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/bg.jpg');"></div>
-      </div>
-    </div>
-    <div class="space--xxl"></div>
+<div class="container">
+  <div class="space--xxl"></div>
+  <div class="width width--xl text--center">
+    <p class="text--xxl">{{page.intro}}</p>
+    <p class="text--xxl">{{page.extra-intro}}</p>
   </div>
+  <div class="space--xl"></div>
+  <div class="row row--constant-4-4-4 row--gutters-sm">
+    <div class="col">
+      <div class="bg-img bg-img--1-1 bg-img--xl-4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/01.jpg');"></div>
+    </div>
+    <div class="col">
+      <div class="bg-img bg-img--1-1 bg-img--xl-4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/02.jpg');"></div>
+    </div>
+    <div class="col">
+      <div class="bg-img bg-img--1-1 bg-img--xl-4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/03.jpg');"></div>
+    </div>
+  </div>
+  <div class="space--xxl"></div>
 </div>
 
-<div class="vpad--xl">
+<div class="vpad--xl bg--light">
   <div class="container">
     <div id="entry-form" class="vpad--md">
+      <h3 class="width width--md text--center title title--sm">Enter below for your chance to win</h3>
+      <div class="space--lg"></div>
       {% assign form = page.competition-form %}
       <form class="form boilerform competition-form" action="{{form.post-url}}" method="POST" data-expires="{{form.expiry-date}}" novalidate>
         {% include form/messages.html %}

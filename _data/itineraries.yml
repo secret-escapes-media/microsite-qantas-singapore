@@ -1,0 +1,85 @@
+- id: day-one
+  title: Day One
+  title-long: "Shophouses, cycling & Sentosa sands"
+  activities:
+    - id: little-india
+      title: Little India
+      time: 9.30am
+      description: If any place is going to jolt your senses awake, it’s Little India. From the perfume of jasmine garlands slung on street stalls to the aroma of curries, spices and fresh fruits, it’ll jump-start your appetite. And it’s not just the amazing food. Some of Singapore’s famous temples can be found here, as well as lively bazaars teeming with people from all over. Soak in the infectious atmosphere and learn a little about Hinduism and the history of the area, before you sit down for something mouth-watering to eat.
+    - id: peranakan-past
+      title: Peranakan past
+      time: 1pm
+      description: The Peranakan community share a fascinating heritage, shaped by immigration from China, settlement in what is now Singapore and an affluent, cross-cultural lifestyle, out of which was born unique cuisine and tastes. This museum was the first of its kind to explore the identity of the Peranakans and is the ideal starting point for curious visitors. Later, make time to return to Joo Chiat to visit The Intan, run by antiques collector Alvin Yapp (interview, right). It’s a by-appointment-only kind of place because the exhibition space is also Alvin’s home, making it one of the most authentic experiences you can have in the city. Enjoy a glass of wine and perhaps some of his mother’s legendary home cooking while you pick his brain on the Peranakans, Singapore and behind-the-scenes stuff, too.
+    - id: national-gallery-and-national-kitchen-by-violet-oon
+      title: National Gallery and National Kitchen by Violet Oon
+      time: 5pm
+      description: Arrive early before a dinner reservation at the National Kitchen so you have time to wander around the National Gallery’s grand, high-ceilinged rooms. Occupying both the former Supreme Court and City Hall, it’s an enormous venue - large enough to hold several thousand Southeast Asian artworks. All that walking will lead you a well-earned stop for top-flight Peranakan cuisine, helmed by celebrity chef Violet Oon - one of the most prominent names on Singapore’s food scene (interview, right). Order the laksa - the signature dish - and round off with a sweet, comforting upside-down pineapple cake. Linger over a digestif once you’ve had your fill of ‘Nyonya’ dishes and peruse the personal black-and-white photographs adorning the walls.
+    - id: sky-high-supertrees
+      title: Sky-high Supertrees
+      time: 8pm
+      description: Singapore’s most other-worldly attraction really comes to life after dark. Strolling around Gardens by the Bay when the skyscraper-high Supertrees are illuminated is like nothing else on earth. Some of them are connected by an aerial walkway that offers panoramic views of the 101-hectare grounds. But the most dizzying experience is in the Cloud Forest, where the world’s highest indoor waterfall cascades down a mountain inside a futuristic greenhouse. Expect very vivid dreams to follow.
+
+- id: day-two
+  title: Day Two
+  title-long: Hidden gems, hiking & tropical sands
+  activities:
+    - id: charming-joo-chiat
+      title: Charming Joo Chiat
+      time: 9.30am
+      description: The eastern neighbourhood of Joo Chiat is the perfect place to begin exploring as it really embodies present-day Singapore. It’s predominantly a Peranakan (Straits Chinese) area and it’s also a big-hitter on the Instagram scene, thanks to the brightly coloured shophouses and hip eateries - not to mention some of the most buzzed-about local food around. On the ‘Good Morning, Joo Chiat!’ tour, you’ll not only get to travel around in the sidecar of a vintage Vespa, you’ll get to explore the intriguing streets through the eyes of a local.
+    - id: arabian-quarter
+      title: Arabian Quarter
+      time: 1pm
+      description: Singapore is one of the world’s finest examples of a melting-pot culture and it’s something that gives the city a unique vibrancy. Kampong Glam is a mixed bag of Malay and Middle Eastern heritage and is dominated by the majestic golden-domed Sultan Mosque. It’s probably the city’s most eclectic enclave, with everything from homely Muslim cafes and Persian rug sellers to hole-in-the-wall independent boutiques and hidden nightcap spots with no menus (let the bartenders get creative). Always-bustling Haji Lane is the star.
+      # expert: alvin-yapp
+    - id: southern-ridges
+      title: Southern Ridges
+      time: 3pm
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      # expert: violet-oon
+    - id: beach-bound
+      title: Beach bound
+      time: 6pm
+      description: There are a handful of different ways to reach Sentosa but with taxis being so cheap and abundant, this would be a good time to flag one down (or order an Uber) so you get there before sunset. A whole day could easily be spent on this island resort, lined as it is with beach clubs and big-ticket attractions. My favourite spot is Tanjong Beach Club, down on the southernmost bracket of soft white sand. With its modernist design and Miami-style character, it’s easy to see why Condé Nast Traveller once named it best beach bar in the world, and its tropical setting will reaffirm how close you are to the likes of Bali and Phuket.
+
+- id: day-three
+  title: Day Three
+  title-long: Tiong Bahru, temples & homegrown talent
+  activities:
+    - id: breakfast-the-local-way
+      title: Breakfast the local way
+      time: 9am
+      description: "Hawker centres are the beating heart of Singapore life. The ‘Hawker Discovery & Wet Market Adventure’ tour gives you the opportunity to eat your way around Tiong Bahru Market with a local guide who can introduce you to the must-visit stalls, like the long-established Kopi Museum: a traditional coffee shop run by incredibly warm people. Tiong Bahru Market offers mainly Chinese-Singaporean fare such as chicken rice, carrot cake (not what you think - not even a cake) and Michelin Guide-featured sotong prawn mee (noodles with squid), which are some of Singapore’s most popular dishes. Best of all, you’ll go downstairs to the wet market to discover the exotic variety of seafood, fruits, vegetables, dried ingredients and eggs for sale - the ‘salted egg’ is a Singapore staple."
+    - id: tiong-bahru
+      title: Tiong Bahru
+      time: 12.30pm
+      description: Don’t jump in a cab just yet. Tiong Bahru was named one of the “world’s coolest neighbourhoods” by British Vogue a few years back and the hipsters of Singapore don’t seem to have moved on yet. After a morning of food adventures, this shipshape (literally - many of the white-washed buildings were modelled on ships) village presents a refreshing contrast in the form of French-style bakeries, artisanal coffee houses and a design-forward independent bookstore, Books Actually. Buy light-as-air cupcakes from Plain Vanilla - homewares too - and stop for a drink and people-watching session at the Tiong Bahru Club.
+    - id: gillman-barracks
+      title: Gillman Barracks
+      time: 4pm
+      description: Once deserted colonial barracks, now a contemporary arts cluster housing ten exhibition spaces and a handful of decent eateries, Gillman Barracks is the place to go gallery-hopping. Twice a month, there’s an open-house night called Art After Dark, which features dining pop-ups, live performances and the chance to chat with the artists in residence. On any day of the week, the monochrome buildings and tropical green backdrop are beautiful to wander around.
+    - id: chinatown
+      title: Chinatown
+      time: 7pm
+      description: Chinatown is a must and it’s funnest at night when the heat is less intense and the lanterns of Pagoda Street are glowing red. For shopping, there’s every conceivable souvenir item - a lion dance puppet if you wish - and for dining, go local at nearby Maxwell Food Centre or make a beeline for the shophouses of Duxton and Keong Saik Road. Here, you’ll find a smorgasbord of high-end restaurants as well as iconic burger joint and rooftop bar, Potato Head Folk, which more than lives up to the hype. It’s hard to ignore the imposing Buddha Tooth Relic Temple at the centre of it all. Visitors are welcome - all they ask is that you bring something to cover your shoulders.
+
+- id: day-four
+  title: Day Four
+  title-long: From kampong life to the cutting edge
+  activities:
+    - id: pulau-ubin
+      title: Pulau Ubin
+      time: 8.30am
+      description: "In amongst the glass towers and tightly packed terraces, there are glimpses of what Singapore might have looked like before urbanisation. One of the top spots for an escape to the tropical outback is MacRitchie Reservoir: a huge expanse of water and rainforest, around the edge of which skirts a series of walking trails. But if you're feeling a bit more intrepid, head over to Changi to catch a bumboat to Pulau Ubin. It’s one of Singapore’s many offshore islands and also one of the few places where traditional ‘kampong’ houses still exist. Unexpectedly, there’s a large English house built in Tudor style on the edge of the jungle - a jarring sight that harks back to colonial times."
+    - id: jewel-changi
+      title: Jewel Changi
+      time: 11pm
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - id: marina-bay-sands
+      title: Marina Bay Sands
+      time: 6pm
+      description: One of the only locations in Singapore where you can’t see the iconic structure of Marina Bay Sands is on it, but what it does have the edge on is the almost-panoramic views over the bay, the city and the busy Singapore Straits. Many head up to Ce La Vi, but the more stylish spot is Spago, with its laid-back Californian air and prime positioning next to the 57th-floor infinity pool. The light, breezy setting is a contrast to sultry Manhattan, so bring a proper camera to capture impressive photos of your last day in Sin City.
+    - id: blow-out-gastronomy
+      title: Blow-out gastronomy
+      time: 8pm
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

@@ -1,18 +1,18 @@
 # Site settings
-title: Template
+title: Singapore
 client:
-  name: Client Name
-  link: "#client-name"
+  name: Qantas Airways
+  link: https://www.qantas.com/gb/en.html
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Singapore is a playground of colourful adventure. Don’t miss the chance to stopover with Qantas and explore this truly vibrant city state. From a bustling foodie scene that includes forward-thinking Michelin restaurants and coveted hawker stands, to the melting-pot neighbourhoods brimming with culture and the futuristic skyline of Marina Bay, Singapore is a land of diversity, contrasts and compelling exploration. Our Asia editor and Singapore resident Jessica Little gives the lowdown on how to embrace the ‘city of possibilities’ on a four-day stopover.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/template" # the subpath of your site, e.g. /blog/
-img:     "/template/_assets/img"
-css:     "/template/_assets/css"
-js:      "/template/_assets/js"
+baseurl: "/qantas-singapore" # the subpath of your site, e.g. /blog/
+img:     "/qantas-singapore/_assets/img"
+css:     "/qantas-singapore/_assets/css"
+js:      "/qantas-singapore/_assets/js"
 
 
 # Build settings

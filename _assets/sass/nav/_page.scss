@@ -1,0 +1,113 @@
+// styles for the microsite nav
+
+$page-nav-height:    56px;
+$page-nav-height-sm: 44px;
+$page-nav-width-bp:  430px;
+$page-nav-color:     $sg-red;
+
+
+// global site nav height
+@mixin page-nav-height {
+  height: $page-nav-height-sm;
+  min-height: $page-nav-height-sm;
+  @include bp($md){
+    height: $page-nav-height;
+    min-height: $page-nav-height;
+  }
+}
+
+.page-nav {
+  position: relative;
+  background-color: $page-nav-color;
+  text-align: center;
+
+  // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
+  &__offset:before {
+    // corrects header overlapping content
+    content: '';
+    display: block;
+    @include page-nav-height;
+  }
+
+
+  &:before {
+    // arrow icon prompt for horizontal scroll
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-nav-upper;
+    width: $page-nav-height-sm;
+    background-image: url("../img/icons/page-nav-arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $page-nav-height-sm auto;
+    @include page-nav-height;
+    @include bp($md){
+      width: $page-nav-height;
+      background-size: $page-nav-height auto;
+    }
+    // remove arrow icon when no overflow
+    @include bp($page-nav-width-bp){ display: none; }
+  }
+  &__scroll-wrap {
+    overflow-x: auto;
+    overflow-y: hidden;
+    @include bp($page-nav-width-bp){ overflow: visible; }
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: $xxxl;
+    margin-left: auto;
+    margin-right: auto;
+    @include page-nav-height;
+    &:after {
+      // additional spacing for end of list so content can scroll past the overlaid arrow icon
+      content: '';
+      min-width: $page-nav-height-sm;
+      @include bp($md){ min-width: $page-nav-height; }
+      @include bp($page-nav-width-bp){ display: none; }
+    }
+  }
+  &__item {
+    display: flex;
+    flex: 1 0 auto;
+    // border-right: 1px solid rgba($white,.4);
+    // &:last-child { border-right: 0; }
+  }
+  &__link {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding-left: $s4;
+    padding-right: $s4;
+    font-family: $font-core;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: $white;
+    transition: background-color $transition-time ease;
+    white-space: nowrap;
+    &.is-current { background-color: $sg-red-dark; }
+    .no-touch &:hover { background-color: $sg-red-dark; }
+    @include bp($page-nav-width-bp){
+      padding-left: $s0;
+      padding-right: $s0;
+    }
+  }
+
+  // js-sticky-nav style
+  &.is-stuck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: $z-nav  ;
+  }
+}
