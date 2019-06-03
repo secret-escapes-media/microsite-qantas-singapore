@@ -17,7 +17,7 @@
     - id: sky-high-supertrees
       title: Sky-high Supertrees
       time: 8pm
-      description: Singapore’s most other-worldly attraction really comes to life after dark. Strolling around Gardens by the Bay when the skyscraper-high Supertrees are illuminated is like nothing else on earth. Some of them are connected by an aerial walkway that offers panoramic views of the 101-hectare grounds. But the most dizzying experience is in the Cloud Forest, where the world’s highest indoor waterfall cascades down a mountain inside a futuristic greenhouse. Expect very vivid dreams to follow.
+      description: Singapore’s most other-worldly attraction really comes to life after dark. Strolling around Gardens by the Bay when the Supertrees are illuminated is like no other experience on earth. Not merely an imitation of nature, the vertiginous trunks are breathing with several hundred species of tropical plants and some are connected by an aerial walkway that offers panoramic views of the 101-hectare grounds. Expect very vivid dreams to follow.
 
 - id: day-two
   title: Day Two
@@ -26,7 +26,7 @@
     - id: charming-joo-chiat
       title: Charming Joo Chiat
       time: 9.30am
-      description: The eastern neighbourhood of Joo Chiat is the perfect place to begin exploring as it really embodies present-day Singapore. It’s predominantly a Peranakan (Straits Chinese) area and it’s also a big-hitter on the Instagram scene, thanks to the brightly coloured shophouses and hip eateries - not to mention some of the most buzzed-about local food around. On the ‘Good Morning, Joo Chiat!’ tour, you’ll not only get to travel around in the sidecar of a vintage Vespa, you’ll get to explore the intriguing streets through the eyes of a local.
+      description: The eastern neighbourhood of Joo Chiat is the perfect place to begin exploring as it really embodies present-day Singapore. It’s predominantly a Peranakan (Straits Chinese) area and is also a big-hitter on the Instagram scene, thanks to the brightly coloured shophouses and hip eateries - not to mention some of the most buzzed-about local food around. On the ‘Good Morning, Joo Chiat!’ tour, you’ll not only get to travel around in the sidecar of a vintage Vespa, you’ll get to explore the intriguing streets through the eyes of a local.
     - id: arabian-quarter
       title: Arabian Quarter
       time: 1pm
@@ -35,12 +35,12 @@
     - id: southern-ridges
       title: Southern Ridges
       time: 3pm
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      description: Part of Singapore’s unique appeal is that you can hop in a cab and be hiking through jungle within minutes. Spanning five wide-open green spaces, the Southern Ridges are a 10-kilometre stretch of trails connected by picturesque pathways and canopy-level bridges, including Henderson Waves - an architectural wonder. Depending on how much you want to see, you could start at Kent Ridge Park and trek through the lush landscape towards Mount Faber, emerging at Harbourfront for a convenient entry into Sentosa.
       # expert: violet-oon
     - id: beach-bound
       title: Beach bound
       time: 6pm
-      description: There are a handful of different ways to reach Sentosa but with taxis being so cheap and abundant, this would be a good time to flag one down (or order an Uber) so you get there before sunset. A whole day could easily be spent on this island resort, lined as it is with beach clubs and big-ticket attractions. My favourite spot is Tanjong Beach Club, down on the southernmost bracket of soft white sand. With its modernist design and Miami-style character, it’s easy to see why Condé Nast Traveller once named it best beach bar in the world, and its tropical setting will reaffirm how close you are to the likes of Bali and Phuket.
+      description: A whole day could easily be spent on this island resort, lined as it is with beach clubs and big-ticket attractions. A buzzworthy spot is Tanjong Beach Club, down on the southernmost bracket of soft white sand. With its modernist design and Miami-style character, it’s easy to see why Condé Nast Traveller once named it best beach bar in the world, and as you wind down at sunset the tropical setting will reaffirm how close you are to the likes of Bali and Phuket.
 
 - id: day-three
   title: Day Three
@@ -61,7 +61,7 @@
     - id: chinatown
       title: Chinatown
       time: 7pm
-      description: Chinatown is a must and it’s funnest at night when the heat is less intense and the lanterns of Pagoda Street are glowing red. For shopping, there’s every conceivable souvenir item - a lion dance puppet if you wish - and for dining, go local at nearby Maxwell Food Centre or make a beeline for the shophouses of Duxton and Keong Saik Road. Here, you’ll find a smorgasbord of high-end restaurants as well as iconic burger joint and rooftop bar, Potato Head Folk, which more than lives up to the hype. It’s hard to ignore the imposing Buddha Tooth Relic Temple at the centre of it all. Visitors are welcome - all they ask is that you bring something to cover your shoulders.
+      description: Chinatown is a must and it’s best explored at night when the heat is less intense and the lanterns of Pagoda Street are glowing red. For shopping, there’s every conceivable souvenir item - a lion dance puppet if you wish - and for dining, go local at nearby Maxwell Food Centre or make a beeline for the shophouses of Duxton and Keong Saik Road. Here, you’ll find a smorgasbord of high-end restaurants as well as iconic burger joint and rooftop bar, Potato Head Folk, which more than lives up to the hype. It’s hard to ignore the imposing Buddha Tooth Relic Temple at the centre of it all. Visitors are welcome inside, but you’ll be required to wear something covering your shoulders.
 
 - id: day-four
   title: Day Four
@@ -70,16 +70,16 @@
     - id: pulau-ubin
       title: Pulau Ubin
       time: 8.30am
-      description: "In amongst the glass towers and tightly packed terraces, there are glimpses of what Singapore might have looked like before urbanisation. One of the top spots for an escape to the tropical outback is MacRitchie Reservoir: a huge expanse of water and rainforest, around the edge of which skirts a series of walking trails. But if you're feeling a bit more intrepid, head over to Changi to catch a bumboat to Pulau Ubin. It’s one of Singapore’s many offshore islands and also one of the few places where traditional ‘kampong’ houses still exist. Unexpectedly, there’s a large English house built in Tudor style on the edge of the jungle - a jarring sight that harks back to colonial times."
-    - id: jewel-changi
-      title: Jewel Changi
-      time: 11pm
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      description: "In amongst the glass towers and tightly packed terraces, there are glimpses of what Singapore might have looked like before urbanisation. One of the top spots for a somewhat off-grid escape is Pulau Ubin, a glitz-free experience that begins by hopping on a small bumboat from Changi. It’s one of Singapore’s many offshore islands and also one of the few places where traditional ‘kampong’ houses still exist. Unexpectedly, there’s a large English house built in Tudor style on the edge of the jungle - a jarring sight that harks back to colonial times."
+    - id: jewel-changi-airport
+      title: Jewel Changi Airport
+      time: 2pm
+      description: You could save this for the day of your flight home, but if you prefer to take your time, take the opportunity now to swing by Singapore’s most talked-about opening of the year so far. Jewel Changi Airport is an extension of the already award-winning international airport and you don’t need a boarding pass to get inside. The appeal? You can shop and dine here (even London-hailing restaurant Burger & Lobster has an outpost), but it’s the stunning greenhouse design and world’s tallest indoor waterfall, powered by rainfall, that makes it singularly Singaporean. 
     - id: marina-bay-sands
       title: Marina Bay Sands
       time: 6pm
-      description: One of the only locations in Singapore where you can’t see the iconic structure of Marina Bay Sands is on it, but what it does have the edge on is the almost-panoramic views over the bay, the city and the busy Singapore Straits. Many head up to Ce La Vi, but the more stylish spot is Spago, with its laid-back Californian air and prime positioning next to the 57th-floor infinity pool. The light, breezy setting is a contrast to sultry Manhattan, so bring a proper camera to capture impressive photos of your last day in Sin City.
+      description: One of the only locations in Singapore where you can’t see the iconic structure of Marina Bay Sands is on it, but what it does have the edge on is the almost-panoramic views over the bay, the city and the busy Singapore Straits. Many head up to Ce La Vi, but arguably the more stylish spot is Spago, with its laid-back Californian air and prime positioning next to the 57th-floor infinity pool. The light, breezy setting is a contrast to sultry Manhattan, so bring a proper camera to capture impressive photos of your last day in Sin City as the sun goes down at around 7pm.
     - id: blow-out-gastronomy
       title: Blow-out gastronomy
       time: 8pm
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      description: Singapore’s hawker centres are a delicious hybrid of flavours and time-honoured traditions from around the world, and the same goes for many of the restaurants at the top end of this tiny nation’s phenomenal dining scene. If you’re lucky enough to get a table, it doesn’t get any better than the French-Asian tasting menus at Odette, a two-Michelin-star hotspot that summitted the list of Asia’s 50 Best Restaurants in 2019. An alternative and no less glamorous venue is ATLAS, a grand Jazz Age throwback where a highlight is the gilded gin tower displaying over 1,300 labels.
