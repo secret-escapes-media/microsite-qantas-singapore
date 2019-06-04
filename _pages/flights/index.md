@@ -3,7 +3,7 @@ layout: flights
 id: flights
 nav: true
 nav-order: 2
-title: Fights
+title: Flights
 intro: Qantas’ Singapore hub is your springboard for all Asia travel. With Qantas, you can book your four-day stopover in Singapore before heading off on your Asia adventure, allowing you to get more out of your holiday. Simply head to the Qantas site where you can enter each leg of your chosen journey, choosing from 15 onward destinations from Singapore. On board, you can expect the exceptional standard of service Qantas is known for, letting you start your adventure in comfort.
 
 banner:
