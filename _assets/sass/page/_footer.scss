@@ -13,7 +13,12 @@
   }
 
   // spacing for multiple logos in site footer
-  .logo { margin: $s-2; }
+  &__logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo { margin: $s-2; }
+  }
 
   // white background for footer. Transparent colours will appear as block colours
   position: relative;

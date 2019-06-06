@@ -16,11 +16,11 @@
     }
   }
   &--partner { // max-width for this is about 150x46px
-    max-width: 120px;
-    &-sm { max-width: 100px; }
+    max-width: 380px;
+    &-sm { max-width: 360px; }
   }
-  &--signapore { // max-width for this is about 150x46px
-    max-width: 140px;
-    &-sm { max-width: 120px; }
-  }
+  // &--signapore { // max-width for this is about 150x46px
+  //   max-width: 140px;
+  //   &-sm { max-width: 120px; }
+  // }
 }

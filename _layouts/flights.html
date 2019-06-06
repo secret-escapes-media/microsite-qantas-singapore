@@ -15,7 +15,7 @@ layout: default
     {% for feature in page.features %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');">
+          <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
             <a id="track-lexus-features-{{feature.id}}-img" class="bg-img__link" href="{{feature.link}}"></a>
           </div>
         </div>
@@ -34,27 +34,9 @@ layout: default
   <div class="container">
     <div class="width width--xl text--center">
       <h2 class="title title--md">flight options</h2>
-      <p class="width width--lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sunt quam earum tenetur fuga atque rem nam asperiores, eveniet pariatur temporibus commodi officiis ut. Quia, quo vero facilis esse aliquid.</p>
+      <p class="width width--lg text--xxl">Check the latest Qantas fares to Singapore, Asia and beyond. Sign up to Qantas Red eMail to stay up to date with the latest offers</p>
       <div class="space--md"></div>
-      <div class="width width--lg">
-        <div class="row row--md-6-6">
-          <div class="col">
-            <div class="bg--light boxpad--xl">
-              <p class="text--xxl">Economy return from</p>
-              <div><p class="title title--md">£999*</p></div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="bg--light boxpad--xl">
-              <p class="text--xxl">Business return from</p>
-              <div><p class="title title--md">£9999*</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="space--md"></div>
-      <a href="#flights-link" class="btn btn--lg btn--qt-red">See All Flights</a>
+      <a href="#flights-link" class="btn btn--qt-red">Visit qantas.com for the latest fares</a>
     </div>
   </div>
 </div>

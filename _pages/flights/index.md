@@ -12,12 +12,12 @@ banner:
 
 features:
   - id: frequent-flights
-    title: Frequent Flights
-    description: Take off with frequent A380 flights from London Heathrow to Sydney & beyond via Singapore – choose from 15 incredible onward destinations. Choose from Economy, Premium Economy, Business or First, and enjoy unrivalled Australian hospitality in all four cabins.
+    title: Daily Flights
+    description: Take off with Qantas, with daily flights on the award-winning A380 from London Heathrow to Singapore. Enjoy your stopover in Singapore, then conveniently connect on to much of South East Asia with Qantas’ airline partners, or continue on to one of four cities in Australia. On the Qantas A380 you can choose from one of four comfortable cabins designed with passenger comfort at the core; Economy, Premium Economy, Business or First.
     link: "#feature-link"
   - id: all-included
     title: All Included
-    description: Complimentary checked baggage allowances allow you to pack more for your trip, or even take more home. On demand in-flight entertainment in every seat features the latest films and shows, and the freshest seasonal flavours are there to be savoured, with Neil Perry inspired menus in Premium cabins.
+    description: Complimentary and generous checked baggage allowances allow you to pack more for your trip, or even take more home after a shopping spree in Singapore. On demand in-flight entertainment in every seat features the latest movies and full TV boxsets, and the freshest seasonal flavours are there to be savoured, with Neil Perry inspired menus in Premium cabins. Self-serve snack bars throughout Economy, Premium Economy and Business mean you can also help yourself throughout the flight. 
     link: "#feature-link"
   - id: singapore-changi-airport
     title: Singapore Changi Airport
