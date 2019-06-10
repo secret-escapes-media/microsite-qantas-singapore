@@ -4,7 +4,7 @@ id: competition
 nav: true
 nav-order: 3
 title: Compet&shy;ition
-intro: Win your very own four-night stay in this vibrant Southeast Asian starlet, for you and your travel partner. You’ll fly with Qantas for a luxurious stay at the Villa Samadhi, a boutique hotel decked with colonial-era refinement. Housed in an old garrison in the heart of the beautiful Labrador Nature Reserve, you’ll stay in effortlessly-charming, historic digs with a stylish, contemporary flair. Set in a tropical oasis, you’re just a short hop from the buzzing heart of Singapore.
+intro: Win your very own escape to this vibrant Southeast Asian destination, for you and your travel partner. You’ll fly with Qantas for a luxurious four-night stay, taking in the many sights that this buzzing city offers. Discover temples and towers, smart restaurants and vibrant hawker markets. Follow our four-day itinerary or go off-script and carve your own adventure, filled with unique experiences and unforgettable moments.
 extra-intro: Whether you’re a foodie, culture seeker, or adventurer, you can craft your very own four-day adventure in this beguiling land. Enter below to be in with a chance to win!
 
 title-sub: Make the itinerary a reality
@@ -37,7 +37,7 @@ competition-form:
           invalid: true
     - id: opt-in
       type: radio
-      label: Would you like to receive emails from our Qantas Airways?
+      label: Would you like to receive emails from Qantas, Changi Airport and Singapore Tourism Board?
       required: true
       options:
         - id: opt-in-true
