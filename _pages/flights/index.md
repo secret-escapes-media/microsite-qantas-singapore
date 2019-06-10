@@ -14,13 +14,13 @@ features:
   - id: frequent-flights
     title: Daily Flights
     description: Take off with Qantas, with daily flights on the award-winning A380 from London Heathrow to Singapore. Enjoy your stopover in Singapore, then conveniently connect on to much of South East Asia with Qantas’ airline partners, or continue on to one of four cities in Australia. On the Qantas A380 you can choose from one of four comfortable cabins designed with passenger comfort at the core; Economy, Premium Economy, Business or First.
-    link: "#feature-link"
+    link: https://ad.doubleclick.net/ddm/clk/444496833;247723974;z
   - id: all-included
     title: All Included
-    description: Complimentary and generous checked baggage allowances allow you to pack more for your trip, or even take more home after a shopping spree in Singapore. On demand in-flight entertainment in every seat features the latest movies and full TV boxsets, and the freshest seasonal flavours are there to be savoured, with Neil Perry inspired menus in Premium cabins. Self-serve snack bars throughout Economy, Premium Economy and Business mean you can also help yourself throughout the flight. 
-    link: "#feature-link"
+    description: Complimentary and generous checked baggage allowances allow you to pack more for your trip, or even take more home after a shopping spree in Singapore. On demand in-flight entertainment in every seat features the latest movies and full TV boxsets, and the freshest seasonal flavours are there to be savoured, with Neil Perry inspired menus in Premium cabins. Self-serve snack bars throughout Economy, Premium Economy and Business mean you can also help yourself throughout the flight.
+    link: https://ad.doubleclick.net/ddm/clk/444496833;247723974;z
   - id: singapore-changi-airport
     title: Singapore Changi Airport
     description: Land at award-winning Changi Airport – the ‘world’s best’, no less – and enjoy a truly dazzling array of attractions. The most iconic and beguiling has to be the vast Forest Valley, featuring the largest indoor waterfall and verdant architecture that truly deserves the phrase breathtaking.
-    link: "#feature-link"
+    link: https://ad.doubleclick.net/ddm/clk/444496833;247723974;z
 ---
