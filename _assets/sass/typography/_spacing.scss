@@ -6,8 +6,8 @@
   * + ol  { padding-top: $s-1; }
   li + li { padding-top: $s-3; }
 
-  ul,
-  ol { padding-top: $s2; padding-bottom: $s-2; }
+  // ul,
+  // ol { padding-top: $s2; padding-bottom: $s-2; }
 
   // specific spacing for all titles, these should be adjusted once typefaces & content are added
   p + .title { padding-top: $s5; }
@@ -16,7 +16,7 @@
 
   p + .core-title { padding-top: $s5; }
   .core-title + p { padding-top: $s-5; }
-  .core-title + .core-title { padding-top: 0; padding-bottom: $s-3; }
+  // .core-title + .core-title { padding-top: 0; padding-bottom: $s-3; }
 
   .sub-title,
   .sub-title { padding: 0; }

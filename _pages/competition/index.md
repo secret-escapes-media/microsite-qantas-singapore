@@ -10,10 +10,12 @@ extra-intro: Whether you’re a foodie, culture seeker, or adventurer, you can c
 title-sub: Make the itinerary a reality
 enter-cta: Enter Now
 
+
+
 competition-form:
   id: comp
-  post-url: "#getFormUrl"
-  expiry-date: 2050-01-01
+  post-url: https://getform.io/f/52bc213a-b798-4540-8edf-c4002050587f
+  expiry-date: 2019-08-01
   fields:
     - id: name
       type: text
