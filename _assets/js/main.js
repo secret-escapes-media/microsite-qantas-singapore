@@ -16,3 +16,13 @@ $('.js-tracking-timestamp').each(function() {
   var newPixelLink = pixelLink.replace(/\[timestamp\]/g, a); // replace timestamp with randomly generated number
   $(this).attr(elementLinkType, newPixelLink); // write to element
 });
+
+
+// only add a hyphen for the main title on small screens
+// only works for the title "Singapore" - a lot of magic numbers
+if (window.innerWidth < 375) {
+  var $title = $(".js-title-add-hyphen");
+  var title = $title.text();
+  var newTitle = title.slice(0, 5) + "&shy;" + title.slice(5);
+  $title.html(newTitle);
+}

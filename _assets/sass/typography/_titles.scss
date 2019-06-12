@@ -77,15 +77,20 @@
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .1em;
-  line-height: 1.2;
-  font-size: $s5;
-  @include bp($md){ font-size: $s7; }
-  @include bp($lg){ font-size: $s8; }
+  line-height: 1;
+  font-size: $s6;
+  margin-bottom: $s-4;
+  @include bp($sm){ font-size: $s7; }
+  @include bp($lg){
+    font-size: $s8;
+    margin-bottom: $s-2;
+  }
   @include bp($xl){ font-size: $s9; }
   @include bp($xxl){ font-size: $s11; }
   &--overview {
     font-size: $s6;
     font-weight: 800;
+    @include bp($sm){ font-size: $s7; }
     @include bp($md){ font-size: $s8; }
     @include bp($lg){ font-size: $s9; }
     @include bp($xl){ font-size: $s10; }
@@ -100,8 +105,9 @@
   font-weight: 700;
   letter-spacing: .3em;
   line-height: 1.2;
-  font-size: $s2;
-  @include bp($md){ font-size: $s3; }
+  font-size: $s1;
+  @include bp($md){ font-size: $s2; }
+  @include bp($lg){ font-size: $s3; }
   @include bp($xl){ font-size: $s4; }
 }
 
@@ -112,8 +118,7 @@
   letter-spacing: .25em;
   line-height: 1.2;
   color: $sg-red;
-  font-size: $s-1;
-  @include bp($lg){ font-size: $s0; }
+  font-size: $s0;
 }
 
 .light-title {

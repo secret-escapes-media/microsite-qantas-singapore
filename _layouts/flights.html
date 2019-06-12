@@ -16,14 +16,14 @@ layout: default
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{feature.id}}.jpg');">
-            <a id="track-lexus-features-{{feature.id}}-img" class="bg-img__link" href="{{feature.link}}"></a>
+            <a id="track-qantas-{{feature.id}}-img" class="bg-img__link" href="{{feature.link}}"></a>
           </div>
         </div>
         <div class="bob__text">
           <h2 class="title title--sm">{{feature.title}}</h2>
           <p>{{feature.description}}</p>
           <div class="space--sm"></div>
-          <a id="track-lexus-{{feature.id}}-btn" href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-qt-red"{% if feature.open-in-tab %} target="_blank"{% endif %}>Find Out More</a>
+          <a id="track-qantas-{{feature.id}}-btn" href="{{feature.link}}" class="btn btn--sm btn--outline btn--outline-qt-red"{% if feature.open-in-tab %} target="_blank"{% endif %}>Find Out More</a>
         </div>
       </div>
     {% endfor %}
@@ -36,7 +36,7 @@ layout: default
       <h2 class="title title--md">flight options</h2>
       <p class="width width--lg text--xxl">Check the latest Qantas fares to Singapore, Asia and beyond. Sign up to Qantas Red eMail to stay up to date with the latest offers</p>
       <div class="space--md"></div>
-      <a href="https://ad.doubleclick.net/ddm/clk/444496833;247723974;z" class="btn btn--qt-red">Visit qantas.com for the latest fares</a>
+      <a id="track-qantas-bottom-flights-btn" href="https://ad.doubleclick.net/ddm/clk/444496833;247723974;z" class="btn btn--qt-red">Visit qantas.com for the latest fares</a>
     </div>
   </div>
 </div>
